@@ -2,7 +2,7 @@
 
 A production-quality C++ implementation of a limit order book and matching engine, designed for low latency, deterministic behavior, and high throughput.
 
-## 🎯 Overview
+## Overview
 
 This project implements a high-performance matching engine that simulates how real exchanges match buy and sell orders. It demonstrates advanced systems programming concepts including:
 
@@ -13,17 +13,17 @@ This project implements a high-performance matching engine that simulates how re
 - **Deterministic execution** with single-threaded core
 - **Integer-based pricing** to avoid floating-point precision issues
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
-- ✅ **Limit Orders**: Orders that rest in the book at specific prices
-- ✅ **Market Orders**: Orders that execute immediately at best available prices
-- ✅ **Price-Time Priority**: Orders matched by price first, then arrival time (FIFO)
-- ✅ **Partial Fills**: Orders can be partially executed across multiple trades
-- ✅ **Order Cancellation**: Fast O(1) cancellation using hash map
-- ✅ **Order Modification**: Modify quantity of resting orders
-- ✅ **Best Bid/Ask Tracking**: Real-time top-of-book access
-- ✅ **Trade Notifications**: Callback system for trade execution events
+-  **Limit Orders**: Orders that rest in the book at specific prices
+-  **Market Orders**: Orders that execute immediately at best available prices
+-  **Price-Time Priority**: Orders matched by price first, then arrival time (FIFO)
+-  **Partial Fills**: Orders can be partially executed across multiple trades
+-  **Order Cancellation**: Fast O(1) cancellation using hash map
+-  **Order Modification**: Modify quantity of resting orders
+-  **Best Bid/Ask Tracking**: Real-time top-of-book access
+-  **Trade Notifications**: Callback system for trade execution events
 
 ### Technical Highlights
 
@@ -64,7 +64,7 @@ make run
 make clean
 ```
 
-## 🎮 Running the Program
+##  Running the Program
 
 The matching engine supports **multiple modes of operation**:
 
@@ -99,8 +99,6 @@ Execute commands from a file for scripted scenarios.
 ```
 
 Run performance tests only.
-
-See [CLI_GUIDE.md](CLI_GUIDE.md) for complete CLI documentation.
 
 ### Interactive Commands
 
