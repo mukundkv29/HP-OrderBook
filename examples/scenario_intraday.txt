@@ -1,0 +1,31 @@
+# Intraday Trading Scenario
+# Simulates a sequence of market events
+
+# Morning: Initial orders establish market
+buy 100.00 500
+buy 99.95 300
+buy 99.90 400
+sell 100.10 500
+sell 100.15 300
+sell 100.20 400
+
+print 5
+
+# News event: Aggressive buying
+buy 100.25 800
+
+print 5
+
+# Market maker adds liquidity
+buy 99.80 1000
+sell 100.30 1000
+
+print 5
+
+# Institutional order
+mbuy 500
+
+print 5
+
+# End of day
+stats

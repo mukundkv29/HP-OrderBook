@@ -1,0 +1,21 @@
+# Market Order Demo
+
+# Build liquidity on both sides
+buy 99.00 100
+buy 98.50 200
+buy 98.00 300
+
+sell 101.00 100
+sell 101.50 200
+sell 102.00 300
+
+print 8
+
+# Execute market orders that sweep multiple price levels
+msell 400
+print 8
+
+mbuy 250
+print 8
+
+stats

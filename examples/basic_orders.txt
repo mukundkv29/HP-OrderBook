@@ -1,0 +1,17 @@
+# Basic Order Book Example
+# This file demonstrates basic order placement
+
+# Build the order book with limit orders
+buy 100.00 100
+buy 99.95 200
+buy 99.90 150
+
+sell 100.10 100
+sell 100.15 200
+sell 100.20 150
+
+# Show the order book
+print 10
+
+# Show statistics
+stats

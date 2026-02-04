@@ -1,0 +1,17 @@
+# Matching Demo - Shows aggressive order matching
+
+# Setup: Create spread
+buy 100.00 100
+buy 99.50 200
+sell 101.00 150
+sell 101.50 200
+
+print 5
+stats
+
+# Now submit aggressive buy that crosses the spread
+# This should match against the sell side
+buy 101.25 200
+
+print 5
+stats

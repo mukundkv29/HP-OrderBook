@@ -1,0 +1,26 @@
+# Order Management Demo - Cancel and Modify
+
+# Place some orders
+buy 100.00 100
+buy 99.00 200
+sell 101.00 150
+
+print
+list
+
+# Cancel order #2
+cancel 2
+
+print
+list
+
+# Place new order and modify it
+buy 98.50 100
+list
+
+# Modify order #4 (change quantity)
+modify 4 300
+list
+
+print
+stats
