@@ -3,6 +3,7 @@
 #include <cstdint>
 #include <string>
 #include <chrono>
+#include <stdexcept>
 
 // Price represented as integer ticks to avoid floating-point precision issues
 // For example: $100.25 with tick size $0.01 = 10025 ticks
